@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.general-box{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/bg\ img.webp);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    
+    
+        
+}
+.general-main-left{
+    width: 30%;
+    background-color: #B99674F0;
+    position: absolute;
+    top: 100px;
+    left: 138px;
+
+}
+
+.left-info-top h1{
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 71px;
+    color:#fff;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.left-subtitle-top{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color:#fff;
+    margin-top: 50px;
+}
+
+.left-info{
+    font-weight: 600;
+    font-size: 18px;
+    color:#fff;
+    line-height: 21px;
+    text-align: center;
+    color:#fff;
+    padding-top: 35px;
+
+}
+
+.left-info-two{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color:#fff;
+    padding-top: 20px;
+
+}
+
+.left-info-botton h2{
+    font-weight: 600;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 21px;
+    margin-top: 50px;
+
+}
+
+.left-desc{
+    font-weight: 600;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 21px;
+    padding-top: 30px;
+
+}
+
+.left-desc-two{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color:#fff;
+    line-height: 21px;
+    padding-top: 20px;
+
+}
+
+.left-desc-phone{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color:#fff;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.left-media{
+    margin-top: 50px;
+    color:#fff;
+    text-align: center;
+    font-size: 24px;
+   
+
+}
+
+.general-main-right{
+    width: 50%;
+    height: 560px;
+    background-color:#fff;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+
+}
+.right-desc h2{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color:#0A0A0A;
+    padding-top: 50px;
+
+}
+.right-desc h3{
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 27px;
+    text-align: center;
+    color:#0A0A0A;
+    padding-top: 20px;
+
+}
+
+form input{
+    width: 500px;
+    height: 40px;
+    padding: 20px;
+    margin-top: 20px;
+    color:#B6B6B6;
+    margin-left: 100px;
+    border:none;
+
+
+}
+
+form textarea{
+    width: 500px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.btn{
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    background-color:#0A0A0A;
+    color:#fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 100px;
+    text-transform: uppercase;
+
+}

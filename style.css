@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+.task-link{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 40px;
+    margin: 80px auto;
+    border-radius: 10px;
+
+}
+.task-link a{
+    width: 100px;
+    height: 35px;
+    display: block;
+    background-color: rgb(212, 44, 206);
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 8px;
+    cursor: pointer;
+
+
+}

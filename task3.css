@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general-btn{
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+  
+    @keyframes btn {
+        0% {
+            transform: rotateZ(0deg);
+        }
+        100% {
+            transform: rotateZ(360deg);
+        }
+    }
+
+}
+
+
+
+
+.btn{
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color:blueviolet;
+    border:none;
+    text-transform: uppercase;
+    color:#fff;
+
+    
+
+
+}
