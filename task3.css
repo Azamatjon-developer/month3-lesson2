@@ -8,20 +8,20 @@
     width: 600px;
     height: 600px;
     background-color: aqua;
+
   
-    @keyframes btn {
-        0% {
-            transform: rotateZ(0deg);
-        }
-        100% {
-            transform: rotateZ(360deg);
-        }
-    }
 
 }
 
 
-
+@keyframes btn_animation {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateY(360px);
+    }
+}
 
 .btn{
     padding: 20px 40px;
@@ -30,7 +30,11 @@
     border:none;
     text-transform: uppercase;
     color:#fff;
-
+    transition: all 2s linear;
+    animation-name: btn_animation;
+    animation: duration 2s;
+    transition: all 2s linear;    
+    animation-timing-function: linear;
     
 
 
